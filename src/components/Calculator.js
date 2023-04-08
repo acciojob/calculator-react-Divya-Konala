@@ -64,7 +64,7 @@ const Calculator=()=>{
             </thead>
            <tbody>
            <tr>
-                <td><button onClick={reset}>C</button></td>
+                <td><button id='calci' onClick={reset}>C</button></td>
                 <td><button id='btn-div' onClick={()=>setInput(input+'/')}>/</button></td>
                 <td><button id='btn-mul' onClick={()=>setInput(input+'*')}>*</button></td>
                 <td><button id='btn--' onClick={()=>setInput(input+'-')}>-</button></td>
@@ -73,7 +73,7 @@ const Calculator=()=>{
                 <td><button id='btn-7' onClick={()=>setInput(input+7)}>7</button></td>
                 <td><button id='btn-8' onClick={()=>setInput(input+8)}>8</button></td>
                 <td><button id='btn-9' onClick={()=>setInput(input+9)}>9</button></td>
-                <td id='plus' rowSpan={2}><button onClick={()=>setInput(input+'+')}>+</button></td>
+                <td rowSpan={2}><button id='plus' onClick={()=>setInput(input+'+')}>+</button></td>
             </tr>
             <tr>
                 <td><button id='btn-4' onClick={()=>setInput(input+4)}>4</button></td>
