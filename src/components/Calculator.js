@@ -84,7 +84,7 @@ const Calculator=()=>{
                 <td><button id='btn-1' onClick={()=>setInput(input+1)}>1</button></td>
                 <td><button id='btn-2' onClick={()=>setInput(input+2)}>2</button></td>
                 <td><button id='btn-3' onClick={()=>setInput(input+3)}>3</button></td>
-                <td rowSpan={2}><button onClick={calculator}>=</button></td>
+                <td rowSpan={2}><button id='equal' onClick={calculator}>=</button></td>
             </tr>
             <tr>
                 <td><button id='btn-0' onClick={()=>setInput(input+0)}>0</button></td>
