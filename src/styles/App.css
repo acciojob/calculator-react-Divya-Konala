@@ -3,10 +3,40 @@ h1 {
     text-align: center;
     }
     
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+input{
+    width: 100%;
+    font-size: 30px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
 }
+table{
+    margin:auto;
+}
+button{
+    /* color: #27aedb; */
+    background-color: #ffff;
+    border: none;
+    font-size: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+table,th,td{
+    border: 1px solid black!important;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    width: 80px;
+    height:80px;
+}
+
