@@ -70,24 +70,24 @@ const Calculator=()=>{
                 <td><button onClick={()=>setInput(input+'-')}>-</button></td>
             </tr>
             <tr>
-                <td><button onClick={()=>setInput(input+7)}>7</button></td>
-                <td><button onClick={()=>setInput(input+8)}>8</button></td>
-                <td><button onClick={()=>setInput(input+9)}>9</button></td>
+                <td><button id='btn-7' onClick={()=>setInput(input+7)}>7</button></td>
+                <td><button id='btn-8' onClick={()=>setInput(input+8)}>8</button></td>
+                <td><button id='btn-9' onClick={()=>setInput(input+9)}>9</button></td>
                 <td rowSpan={2}><button onClick={()=>setInput(input+'+')}>+</button></td>
             </tr>
             <tr>
-                <td><button onClick={()=>setInput(input+4)}>4</button></td>
-                <td><button onClick={()=>setInput(input+5)}>5</button></td>
-                <td><button onClick={()=>setInput(input+6)}>6</button></td>
+                <td><button id='btn-4' onClick={()=>setInput(input+4)}>4</button></td>
+                <td><button id='btn-5' onClick={()=>setInput(input+5)}>5</button></td>
+                <td><button id='btn-6' onClick={()=>setInput(input+6)}>6</button></td>
             </tr>
             <tr>
-                <td><button onClick={()=>setInput(input+1)}>1</button></td>
-                <td><button onClick={()=>setInput(input+2)}>2</button></td>
-                <td><button onClick={()=>setInput(input+3)}>3</button></td>
+                <td><button id='btn-1' onClick={()=>setInput(input+1)}>1</button></td>
+                <td><button id='btn-2' onClick={()=>setInput(input+2)}>2</button></td>
+                <td><button id='btn-3' onClick={()=>setInput(input+3)}>3</button></td>
                 <td rowSpan={2}><button onClick={calculator}>=</button></td>
             </tr>
             <tr>
-                <td><button onClick={()=>setInput(input+0)}>0</button></td>
+                <td><button id='btn-0' onClick={()=>setInput(input+0)}>0</button></td>
                 <td><button onClick={()=>setInput(input+'.')}>.</button></td>
                 <td><button></button></td>
             </tr>
