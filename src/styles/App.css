@@ -5,6 +5,7 @@ h1 {
     
 input{
     width: 100%;
+    height: 50px;
     font-size: 30px;
     box-sizing: border-box;
     outline: none;
@@ -15,18 +16,13 @@ input{
 table{
     margin:auto;
 }
-button{
-    /* color: #27aedb; */
-    background-color: #ffff;
+td{
+    background-color: #cad2c5;
     border: none;
     font-size: 50px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
 }
 
-button:hover{
+td:hover{
     cursor: pointer;
 }
 

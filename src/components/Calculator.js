@@ -75,99 +75,66 @@ const Calculator = () => {
         </thead>
         <tbody>
           <tr>
-            <td>
-              <button id="calci" onClick={reset}>
+            <td id="calci" onClick={reset}>
                 C
-              </button>
             </td>
-            <td>
-              <button id="btn-div" onClick={() => setInput(input + "/")}>
-                /
-              </button>
+            <td id="btn-div" onClick={() => setInput(input + "/")}>
+              /
             </td>
-            <td>
-              <button id="btn-mul" onClick={() => setInput(input + "*")}>
-                *
-              </button>
+            <td id="btn-mul" onClick={() => setInput(input + "*")}>
+              *
             </td>
-            <td>
-              <button id="btn--" onClick={() => setInput(input + "-")}>
-                -
-              </button>
+            <td id="btn--" onClick={() => setInput(input + "-")}>
+              -
             </td>
           </tr>
           <tr>
-            <td>
-              <button id="btn-7" onClick={() => setInput(input + 7)}>
-                7
-              </button>
+            <td id="btn-7" onClick={() => setInput(input + 7)}>
+              7
             </td>
-            <td>
-              <button id="btn-8" onClick={() => setInput(input + 8)}>
-                8
-              </button>
+            <td id="btn-8" onClick={() => setInput(input + 8)}>
+              8
             </td>
-            <td>
-              <button id="btn-9" onClick={() => setInput(input + 9)}>
-                9
-              </button>
+            <td id="btn-9" onClick={() => setInput(input + 9)}>
+              9
             </td>
-            <td rowSpan={2}>
-              <button id="plus" onClick={() => setInput(input + "+")}>
-                +
-              </button>
+            <td rowSpan={2} id="plus" onClick={() => setInput(input + "+")}>
+              +
             </td>
           </tr>
           <tr>
-            <td>
-              <button id="btn-4" onClick={() => setInput(input + 4)}>
-                4
-              </button>
+            <td id="btn-4" onClick={() => setInput(input + 4)}>
+              4
             </td>
-            <td>
-              <button id="btn-5" onClick={() => setInput(input + 5)}>
-                5
-              </button>
+            <td id="btn-5" onClick={() => setInput(input + 5)}>
+              5
             </td>
-            <td>
-              <button id="btn-6" onClick={() => setInput(input + 6)}>
-                6
-              </button>
+            <td id="btn-6" onClick={() => setInput(input + 6)}>
+              6
             </td>
           </tr>
           <tr>
-            <td>
-              <button id="btn-1" onClick={() => setInput(input + 1)}>
-                1
-              </button>
+            <td id="btn-1" onClick={() => setInput(input + 1)}>
+              1
             </td>
-            <td>
-              <button id="btn-2" onClick={() => setInput(input + 2)}>
-                2
-              </button>
+            <td id="btn-2" onClick={() => setInput(input + 2)}>
+              2
             </td>
-            <td>
-              <button id="btn-3" onClick={() => setInput(input + 3)}>
-                3
-              </button>
+            <td id="btn-3" onClick={() => setInput(input + 3)}>
+              3
             </td>
-            <td rowSpan={2}>
-              <button id="equal" onClick={calculator}>
-                =
-              </button>
+            <td rowSpan={2} id="equal" onClick={calculator}>
+              =
             </td>
           </tr>
           <tr>
-            <td>
-              <button id="btn-0" onClick={() => setInput(input + 0)}>
-                0
-              </button>
+            <td id="btn-0" onClick={() => setInput(input + 0)}>
+              0
+            </td>
+            <td onClick={() => setInput(input + ".")}>
+              .
             </td>
             <td>
-              <button onClick={() => setInput(input + ".")}>.</button>
-            </td>
-            <td>
-              <button></button>
             </td>
           </tr>
         </tbody>
